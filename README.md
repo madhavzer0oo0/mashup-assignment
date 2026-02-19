@@ -61,12 +61,12 @@ The application downloads YouTube videos, converts them to audio, extracts the f
 ### Program 1: Command Line
 
 ```bash
-python 102303608.py "<SingerName>" <NumberOfVideos> <DurationSec> <OutputFileName>
+python 102303609.py "<SingerName>" <NumberOfVideos> <DurationSec> <OutputFileName>
 ```
 
 **Example:**
 ```bash
-python 102303608.py "Sharry Maan" 20 30 output.mp3
+python 102303609.py "Sharry Maan" 20 30 output.mp3
 ```
 
 **Parameters:**
@@ -102,13 +102,12 @@ http://127.0.0.1:5000/
 ```
 Mashup/
 │
-├── 102303608.py          # CLI program for mashup generation
+├── 102303609.py          # CLI program for mashup generation
 ├── app.py                # Flask web application
 ├── requirements.txt      # Python dependencies
 ├── README.md            # Project documentation
 │
-└── templates/
-    └── index.html       # Web interface HTML template
+└── index.html 
 ```
 
 
@@ -132,3 +131,4 @@ http://127.0.0.1:5000/
 ```
 
 ## 
+
